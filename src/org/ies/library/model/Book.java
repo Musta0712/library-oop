@@ -16,13 +16,13 @@ public class Book {
         this.authors = authors;
     }
 
-    public Author findAuthor(String nif){
+    public boolean hasAuthor(String nif){
         for (Author author: authors){
             if(author.getNif().equals(nif)){
-                return author;
+                return true;
             }
         }
-        return null;
+        return false;
     }
 
     public String getIsbn() {

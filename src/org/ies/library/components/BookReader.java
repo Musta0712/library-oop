@@ -21,11 +21,11 @@ public class BookReader {
         String isbn = scanner.nextLine();
         System.out.println("Título");
         String title = scanner.nextLine();
-        System.out.println("Año");
+        System.out.println("Año publicacion");
         int year = scanner.nextInt();
         scanner.nextLine();
 
-        System.out.println("¿Cuantos autores hay?");
+        System.out.println("¿Cuantos autores tiene el libro?");
         int size = scanner.nextInt();
         scanner.nextLine();
 
